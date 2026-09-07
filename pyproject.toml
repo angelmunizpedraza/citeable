@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "citeable"
+version = "0.1.0"
+description = "Score how likely a web page is to be cited by AI answer engines (ChatGPT, Perplexity, AI Overviews) and get exact rewrite recommendations."
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Ángel Muñiz Pedraza"}]
+requires-python = ">=3.10"
+dependencies = ["requests>=2.31", "beautifulsoup4>=4.12"]
+keywords = ["seo", "geo", "ai-search", "citations", "content-quality", "generative-engine-optimization", "llm"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+citeable = "citeable.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["citeable*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
