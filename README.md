@@ -100,7 +100,14 @@ citeable/
 tests/         # 13 tests + good/bad HTML fixtures, no network
 ```
 
-## Related tools by the same author
+## Related tools
+
+Part of a set of nine open-source tools I use on client work — all Python, MIT, deterministic, no API keys:
+
+[geo-check](https://github.com/angelmunizpedraza/geo-check) · [render-gap](https://github.com/angelmunizpedraza/render-gap) · [llms-txt-generator](https://github.com/angelmunizpedraza/llms-txt-generator) · [serp-to-ai-diff](https://github.com/angelmunizpedraza/serp-to-ai-diff) · [ai-visibility-tracker](https://github.com/angelmunizpedraza/ai-visibility-tracker) · [linkjuice](https://github.com/angelmunizpedraza/linkjuice) · [seo-audit](https://github.com/angelmunizpedraza/seo-audit) · [ga4-report](https://github.com/angelmunizpedraza/ga4-report)
+
+`geo-check` asks whether the AI crawlers are allowed in. `render-gap` asks whether anything was there when they arrived. `citeable` asks whether it was worth quoting.
+
 
 The full GEO loop: make the site readable by AI ([geo-check](https://github.com/angelmunizpedraza/geo-check), [llms-txt-generator](https://github.com/angelmunizpedraza/llms-txt-generator)) → make each page **quotable** (citeable) → verify the bots come and the engines cite you ([ai-visibility-tracker](https://github.com/angelmunizpedraza/ai-visibility-tracker), [serp-to-ai-diff](https://github.com/angelmunizpedraza/serp-to-ai-diff)) → tie it to traffic ([ga4-report](https://github.com/angelmunizpedraza/ga4-report)). Technical SEO baseline: [seo-audit](https://github.com/angelmunizpedraza/seo-audit).
 
